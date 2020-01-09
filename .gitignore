@@ -1,0 +1,5 @@
+.DS_Store
+/dev/
+/vendor/
+/node_modules/
+/phpdoc-generator-*.*.*.vsix

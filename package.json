@@ -1,0 +1,71 @@
+{
+    "name": "phpdoc-generator",
+    "displayName": "PHPDoc Generator",
+    "description": "Automatically generates a documentation block for any method and properties, based on the declaration of it.",
+    "author": {
+        "name": "Ron van der Heijden",
+        "email": "me@ronvanderheijden.nl"
+    },
+    "version": "1.0.1",
+    "publisher": "ronvanderheijden",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "php",
+        "phpdoc",
+        "dockblock",
+        "generator"
+    ],
+    "activationEvents": [
+        "onCommand:phpdoc-generator.generatePHPDoc"
+    ],
+    "icon": "assets/ronvanderheijden.png",
+    "main": "./lib/extension",
+    "contributes": {
+        "configuration": {
+            "title": "PHPDoc Generator",
+            "properties": {
+                "phpdoc-generator.useNamesInTop": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Place the name of a parameter or method in the top"
+                }
+            }
+        },
+        "commands": [
+            {
+                "command": "phpdoc-generator.generatePHPDoc",
+                "title": "Generate a PHPDoc comment"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "phpdoc-generator.generatePHPDoc",
+                "key": "ctrl+enter",
+                "when": "editorTextFocus"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "@types/mocha": "^5.0.0",
+        "@types/node": "^13.0.0",
+        "eslint": "^6.0.0",
+        "typescript": "^3.0.0",
+        "vscode": "^1.1.36"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ronvanderheijden/vscode-phpdoc-generator.git"
+    },
+    "__metadata": {
+        "publisherDisplayName": "ronvanderheijden"
+    }
+}
