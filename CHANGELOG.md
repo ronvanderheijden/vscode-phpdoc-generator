@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.3 (2020/01/13)
+* Bugfix method parameters
+
 ## 1.0.2 (2020/01/12)
 * Minor improvements
 
