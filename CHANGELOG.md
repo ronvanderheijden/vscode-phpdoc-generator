@@ -1,7 +1,8 @@
 # Changelog
 
-## 1.0.4 (2020/01/14)
+## 1.0.4 (2020/04/17)
 * Updated extension description
+* Accept spaces before return value
 
 ## 1.0.3 (2020/01/13)
 * Bugfix method parameters
