@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.4 (2020/01/14)
+* Updated extension description
+
 ## 1.0.3 (2020/01/13)
 * Bugfix method parameters
 
