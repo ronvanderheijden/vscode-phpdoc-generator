@@ -2,6 +2,7 @@
     "name": "phpdoc-generator",
     "displayName": "PHPDoc Generator",
     "description": "PHPDoc Generator is a VSCode extension that generates a documentation block using a keyboard shortcut.",
+    "license": "MIT",
     "author": {
         "name": "Ron van der Heijden",
         "email": "me@ronvanderheijden.nl"
