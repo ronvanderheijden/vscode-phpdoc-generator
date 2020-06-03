@@ -17,8 +17,10 @@
     "keywords": [
         "php",
         "phpdoc",
+        "docblock",
         "dockblock",
-        "generator"
+        "generator",
+        "documentation"
     ],
     "activationEvents": [
         "onCommand:phpdoc-generator.generatePHPDoc"
