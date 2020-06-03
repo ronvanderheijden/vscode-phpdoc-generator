@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.5 (2020/06/03)
+* Updated tags
+
 ## 1.0.4 (2020/04/17)
 * Updated extension description
 * Accept spaces before return value
