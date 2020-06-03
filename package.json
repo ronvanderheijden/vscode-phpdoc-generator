@@ -36,6 +36,12 @@
                     "type": "boolean",
                     "default": false,
                     "description": "Place the name of a parameter or method in the top"
+                },
+                "phpdoc-generator.returnUndefinedType": {
+                    "type": "string",
+                    "default": "[type]",
+                    "enum": ["[type]", "mixed", "void", "none"],
+                    "description": "Specifies the value of a type for @return when it is undefined."
                 }
             }
         },
