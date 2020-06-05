@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.7 (2020/06/??)
+* Added support for interfaces
+* Added support for abstract and final classes
+* Removed return value of constructors
+* Added support for multiple return values
+
 ## 1.0.6 (2020/06/03)
 * Updated tags
 
