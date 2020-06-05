@@ -36,6 +36,30 @@
                     "type": "boolean",
                     "default": false,
                     "description": "Place the name of a parameter or method in the top"
+                },
+                "phpdoc-generator.returnUndefinedType": {
+                    "type": "string",
+                    "default": "[type]",
+                    "enum": [
+                        "[type]",
+                        "mixed",
+                        "void",
+                        "none"
+                    ],
+                    "description": "Specifies the value of a type for @return when it is undefined."
+                },
+                "phpdoc-generator.shortType": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Uses short names for types: integer => int, boolean => bool."
+                },
+                "phpdoc-generator.comparisonOfShortTypes": {
+                    "type": "object",
+                    "default": {
+                        "int": "integer",
+                        "bool": "boolean"
+                    },
+                    "description": "The list of short names of types and their long names."
                 }
             }
         },
