@@ -50,7 +50,7 @@
                 },
                 "phpdoc-generator.shortType": {
                     "type": "boolean",
-                    "default": false,
+                    "default": true,
                     "description": "Uses short names for types: integer => int, boolean => bool."
                 },
                 "phpdoc-generator.comparisonOfShortTypes": {
