@@ -48,6 +48,16 @@
                     ],
                     "description": "Specifies the value of a type for @return when it is undefined."
                 },
+                "phpdoc-generator.varUndefinedType": {
+                    "type": "string",
+                    "default": "[type]",
+                    "enum": [
+                        "[type]",
+                        "mixed",
+                        "undefined"
+                    ],
+                    "description": "Specifies the value of a type for @var when it is undefined."
+                },
                 "phpdoc-generator.shortType": {
                     "type": "boolean",
                     "default": true,
