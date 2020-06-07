@@ -37,6 +37,11 @@
                     "default": false,
                     "description": "Place the name of a parameter or method in the top"
                 },
+                "phpdoc-generator.insertIndentAfterParameters" : {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Inserts the indent after parameters."
+                },
                 "phpdoc-generator.returnUndefinedType": {
                     "type": "string",
                     "default": "[type]",
