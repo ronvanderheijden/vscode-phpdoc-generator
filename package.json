@@ -75,6 +75,21 @@
                         "bool": "boolean"
                     },
                     "description": "The list of short names of types and their long names."
+                },
+                "phpdoc-generator.constructorWithType": {
+                    "type": ["string", "boolean"],
+                    "default": false,
+                    "enum": [
+                        false,
+                        "void",
+                        "returnDefinedTypeOrUndefinedType"
+                    ],
+                    "description": "Adds a type to @return for '__constructor'.",
+                    "enumDescriptions": [
+                        "'__constructor' without type",
+                        "Adds 'void to @return for '__constructor'",
+                        "Adds a defined type or a type from the 'returnUndefinedType' property to @return for '__constructor'"
+                    ]
                 }
             }
         },
