@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.7 (2020/06/07)
+## 1.1.0 (2020/06/07)
 * Added support for interfaces and traits
 * Configure if a return value should be added to constructors
 * Added support for multiple return values
