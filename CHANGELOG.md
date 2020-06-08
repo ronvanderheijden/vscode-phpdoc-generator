@@ -1,11 +1,11 @@
 # Changelog
 
 ## 1.0.7 (2020/06/07)
-* Added support for interfaces
-* Removed return value of constructors
+* Added support for interfaces and traits
+* Configure if a return value should be added to constructors
 * Added support for multiple return values
 * A lot of minor fixes and improvements
-* Always use short versions
+* Added configurable use of short versions
 
 ## 1.0.6 (2020/06/03)
 * Updated tags
