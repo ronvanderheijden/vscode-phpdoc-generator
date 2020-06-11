@@ -19,9 +19,9 @@
     "keywords": [
         "php",
         "phpdoc",
-        "docblock",
-        "dockblock",
+        "phpdoc-generator",
         "generator",
+        "keybindings",
         "documentation"
     ],
     "activationEvents": [
