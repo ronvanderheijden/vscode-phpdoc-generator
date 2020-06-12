@@ -7,7 +7,7 @@
         "name": "Ron van der Heijden",
         "email": "me@ronvanderheijden.nl"
     },
-    "version": "1.1.0",
+    "version": "1.1.1",
     "publisher": "ronvanderheijden",
     "engines": {
         "vscode": "^1.18.0"
@@ -19,9 +19,9 @@
     "keywords": [
         "php",
         "phpdoc",
-        "docblock",
-        "dockblock",
+        "phpdoc-generator",
         "generator",
+        "keybindings",
         "documentation"
     ],
     "activationEvents": [

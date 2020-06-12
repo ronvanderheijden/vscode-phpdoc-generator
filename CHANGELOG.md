@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.1 (2020/06/10)
+* Added support for functions that are not within a class
+
 ## 1.1.0 (2020/06/07)
 * Added support for interfaces and traits
 * Configure if a return value should be added to constructors
