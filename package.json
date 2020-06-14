@@ -77,6 +77,11 @@
                     },
                     "description": "The list of short names of types and their long names."
                 },
+                "phpdoc-generator.numberOfLinesMethodSignature": {
+                    "type": "integer",
+                    "default": 15,
+                    "description": "The number of lines in a method signature for parsing."
+                },
                 "phpdoc-generator.constructorWithType": {
                     "type": ["string", "boolean"],
                     "default": false,
