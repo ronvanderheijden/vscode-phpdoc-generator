@@ -33,10 +33,10 @@
         "configuration": {
             "title": "PHPDoc Generator",
             "properties": {
-                "phpdoc-generator.useNamesInTop": {
+                "phpdoc-generator.insertDescription": {
                     "type": "boolean",
-                    "default": false,
-                    "description": "Place the name of a parameter or method in the top"
+                    "default": true,
+                    "description": "Inserts a description in a documentation block."
                 },
                 "phpdoc-generator.insertIndentAfterParameters" : {
                     "type": "boolean",
