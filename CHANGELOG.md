@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0 (2020/06/10)
+* Added support for parameters on multiple lines.
+* A lot of minor fixes and improvements
+
 ## 1.1.1 (2020/06/10)
 * Added support for functions that are not within a class
 

@@ -7,7 +7,7 @@
         "name": "Ron van der Heijden",
         "email": "r.heijden@live.nl"
     },
-    "version": "1.1.1",
+    "version": "1.2.0",
     "publisher": "ronvanderheijden",
     "engines": {
         "vscode": "^1.18.0"
