@@ -1,3 +1,7 @@
+# A quick note
+This is a fork of the original repo. All this app does is a few little things ontop. See the [original](https://marketplace.visualstudio.com/items?itemName=ronvanderheijden.phpdoc-generator) app and also checkout the github [repo](https://github.com/ronvanderheijden/vscode-phpdoc-generator) too.
+
+
 # PHPDoc Generator
 
 [![Installs](https://img.shields.io/visual-studio-marketplace/v/ronvanderheijden.phpdoc-generator)](https://marketplace.visualstudio.com/items?itemName=ronvanderheijden.phpdoc-generator)

@@ -1,14 +1,14 @@
 {
-    "name": "phpdoc-generator",
-    "displayName": "PHPDoc Generator",
-    "description": "PHPDoc Generator is a VSCode extension that generates a documentation block using a keyboard shortcut.",
+    "name": "phpdoc-generator-2022",
+    "displayName": "PHPDoc Generator 2022",
+    "description": "PHPDoc Generator is a VSCode extension that generates a documentation block using a keyboard shortcut. Note: This is a fork of the original. Just with a few extra features",
     "license": "MIT",
     "author": {
-        "name": "Ron van der Heijden",
-        "email": "me@ronvanderheijden.nl"
+        "name": "Samuel Hinchliffe",
+        "email": "sam.hinchliffe.work@gmail.com"
     },
-    "version": "1.1.1",
-    "publisher": "ronvanderheijden",
+    "version": "1.0.0",
+    "publisher": "SamuelHinchliffe",
     "engines": {
         "vscode": "^1.18.0"
     },
@@ -18,6 +18,7 @@
     ],
     "keywords": [
         "php",
+        "php docs",
         "phpdoc",
         "phpdoc-generator",
         "generator",
@@ -147,9 +148,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ronvanderheijden/vscode-phpdoc-generator.git"
+        "url": "https://github.com/Samuel-Hinchliffe/vscode-phpdoc-generator.git"
     },
     "__metadata": {
-        "publisherDisplayName": "ronvanderheijden"
+        "publisherDisplayName": "SamuelHinchliffe"
     }
 }
