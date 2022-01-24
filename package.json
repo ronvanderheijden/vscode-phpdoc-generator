@@ -43,6 +43,11 @@
                     "default": true,
                     "description": "Inserts the indent after parameters."
                 },
+                "phpdoc-generator.displayCreationDate" : {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Displays Creation date on a method"
+                },
                 "phpdoc-generator.returnUndefinedType": {
                     "type": "string",
                     "default": "[type]",
@@ -63,6 +68,22 @@
                         "undefined"
                     ],
                     "description": "Specifies the value of a type for @var when it is undefined."
+                },
+                "phpdoc-generator.authorTag": {
+                    "type": "string",
+                    "description": "Add's @author tag to the method"
+                },
+                "phpdoc-generator.authorSeeUrl": {
+                    "type": "string",
+                    "description": "Add's a @see tag to a url below the author tag for the method. For instance, @see https://github.com/"
+                },
+                "phpdoc-generator.companySeeUrl": {
+                    "type": "string",
+                    "description": "Add's a @see tag to a url near the copyright tag for the method. For instance, @see https://github.com/"
+                },
+                "phpdoc-generator.copyrightCompanyName": {
+                    "type": "string",
+                    "description": "Add's @copyright tag to the method"
                 },
                 "phpdoc-generator.shortType": {
                     "type": "boolean",
