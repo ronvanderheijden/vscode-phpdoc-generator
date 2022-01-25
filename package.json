@@ -7,7 +7,7 @@
         "name": "Samuel Hinchliffe",
         "email": "sam.hinchliffe.work@gmail.com"
     },
-    "version": "1.0.0",
+    "version": "1.1.2",
     "publisher": "SamuelHinchliffe",
     "engines": {
         "vscode": "^1.18.0"
