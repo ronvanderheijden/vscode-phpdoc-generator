@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.3 (2022/02/22)
+* Added support to add in @author as a signature for a class
+* Adding the alignment option for the name of parameters of a method
+
+## 1.1.2 (2020/06/10)
+*  already taken : https://github.com/Samuel-Hinchliffe/vscode-phpdoc-generator
 ## 1.1.1 (2020/06/10)
 * Added support for functions that are not within a class
 
