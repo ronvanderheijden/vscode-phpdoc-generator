@@ -5,7 +5,9 @@
 * Adding the alignment option for the name of parameters of a method
 
 ## 1.1.2 (2020/06/10)
-*  already taken : https://github.com/Samuel-Hinchliffe/vscode-phpdoc-generator
+* Added support to add in @author, @copyright as a signature for a function.
+* Also added in a feature for displaying date of creation of the comment. With location
+
 ## 1.1.1 (2020/06/10)
 * Added support for functions that are not within a class
 
