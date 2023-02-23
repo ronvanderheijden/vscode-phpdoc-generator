@@ -2,7 +2,7 @@
 
 ## 1.1.3 (2022/02/22)
 * Added support to add in @author as a signature for a class
-* Adding the alignment option for the name of parameters of a method
+* Added an option for align the name of parameters of a method
 
 ## 1.1.2 (2020/06/10)
 * Added support to add in @author, @copyright as a signature for a function.
