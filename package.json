@@ -4,8 +4,8 @@
     "description": "PHPDoc Generator is a VSCode extension that generates a documentation block using a keyboard shortcut. Note: This is a fork of the original. Just with a few extra features. You can have a signature on every function for example",
     "license": "MIT",
     "author": {
-        "name": "Bruno Caillaud",
-        "email": "caillaud.bruno@gmail.com"
+        "name": "Ron van der Heijden",
+        "email": "me@ronvanderheijden.nl"
     },
     "version": "1.1.3",
     "publisher": "ronvanderheijden",
