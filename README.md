@@ -1,6 +1,17 @@
-# PHPDoc Generator
+# Note
+This is a fork of the original [repo](https://github.com/ronvanderheijden/vscode-phpdoc-generator) and contains features of this other [fork](https://github.com/Samuel-Hinchliffe/vscode-phpdoc-generator.git)
 
-[![Installs](https://img.shields.io/visual-studio-marketplace/v/ronvanderheijden.phpdoc-generator)](https://marketplace.visualstudio.com/items?itemName=ronvanderheijden.phpdoc-generator)
+I added this new features :
+  - Added support to add in @author as a signature for a class
+  - Added an option to align the name of parameters of a method
+# A quick note
+This is a fork of the original repo. All this app does is a few little things ontop. See the [original](https://marketplace.visualstudio.com/items?itemName=ronvanderheijden.phpdoc-generator) app and also checkout the github [repo](https://github.com/ronvanderheijden/vscode-phpdoc-generator) too.
+
+# What's new about this?
+Now every function you generate can have a signature. You can have a @author signature for each function. You can @copyright for each function. Both with a @see signature so you can direct people towards a link. As well as having a snippet of code that will also display when the comment was generated.
+
+![Screen Capture in Action](https://raw.githubusercontent.com/Samuel-Hinchliffe/vscode-phpdoc-generator/master/assets/example.png)
+# PHPDoc Generator
 
 PHPDoc Generator is [a VSCode extension](https://marketplace.visualstudio.com/items?itemName=ronvanderheijden.phpdoc-generator) that generates a PHP documentation block using a keyboard shortcut.
 

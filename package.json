@@ -1,13 +1,13 @@
 {
     "name": "phpdoc-generator",
     "displayName": "PHPDoc Generator",
-    "description": "PHPDoc Generator is a VSCode extension that generates a documentation block using a keyboard shortcut.",
+    "description": "PHPDoc Generator is a VSCode extension that generates a documentation block using a keyboard shortcut. Note: This is a fork of the original. Just with a few extra features. You can have a signature on every function for example",
     "license": "MIT",
     "author": {
         "name": "Ron van der Heijden",
         "email": "me@ronvanderheijden.nl"
     },
-    "version": "1.1.1",
+    "version": "1.1.3",
     "publisher": "ronvanderheijden",
     "engines": {
         "vscode": "^1.18.0"
@@ -18,6 +18,7 @@
     ],
     "keywords": [
         "php",
+        "php docs",
         "phpdoc",
         "phpdoc-generator",
         "generator",
@@ -33,6 +34,11 @@
         "configuration": {
             "title": "PHPDoc Generator",
             "properties": {
+                "phpdoc-generator.author": {
+                    "type": "string",
+                    "default": "",
+                    "description": "Add's @author tag to class"
+                },
                 "phpdoc-generator.insertDescription": {
                     "type": "boolean",
                     "default": true,
@@ -42,6 +48,16 @@
                     "type": "boolean",
                     "default": true,
                     "description": "Inserts the indent after parameters."
+                },
+                "phpdoc-generator.alignParametersName" : {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Align the name of each parameter."
+                },
+                "phpdoc-generator.displayCreationDate" : {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Displays Creation date on a method"
                 },
                 "phpdoc-generator.returnUndefinedType": {
                     "type": "string",
@@ -63,6 +79,22 @@
                         "undefined"
                     ],
                     "description": "Specifies the value of a type for @var when it is undefined."
+                },
+                "phpdoc-generator.authorTag": {
+                    "type": "string",
+                    "description": "Add's @author tag to the method"
+                },
+                "phpdoc-generator.authorSeeUrl": {
+                    "type": "string",
+                    "description": "Add's a @see tag to a url below the author tag for the method. For instance, @see https://github.com/"
+                },
+                "phpdoc-generator.companySeeUrl": {
+                    "type": "string",
+                    "description": "Add's a @see tag to a url near the copyright tag for the method. For instance, @see https://github.com/"
+                },
+                "phpdoc-generator.copyrightCompanyName": {
+                    "type": "string",
+                    "description": "Add's @copyright tag to the method"
                 },
                 "phpdoc-generator.shortType": {
                     "type": "boolean",
@@ -126,7 +158,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ronvanderheijden/vscode-phpdoc-generator.git"
+        "url": "https://github.com/Bruno86/vscode-phpdoc-generator.git"
     },
     "__metadata": {
         "publisherDisplayName": "ronvanderheijden"
